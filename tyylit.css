@@ -1,12 +1,16 @@
-body {
+body 
+{
     background-image: url('etusivu.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     font-family:'Times New Roman',serif
-    
-    
+}
+
+header
+{
+    text-shadow: 2px 1px black;
 }
 
 section
@@ -22,23 +26,14 @@ footer .text-center
     padding-top: 10px;
 }
 
+footer
+{
+    text-shadow: 2px 1px black;
+}
+
 .navbar-toggler
 {
     background-color: white
 }    
 
 
-@media (max-width: 768px) 
-{
-    .container-md .row 
-    {
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: space-between;
-    }
-    .container-md .col-md 
-    {
-        flex: 1 1 auto;
-    }
-}
-    
