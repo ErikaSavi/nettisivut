@@ -1,0 +1,41 @@
+body {
+    background-image: url('etusivu.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+section
+{
+    background-color: blanchedalmond;
+    margin-top: 40px;
+    padding: 30px;
+}
+
+footer .text-center
+{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.navbar-toggler
+{
+    background-color: white
+}    
+
+
+@media (max-width: 768px) 
+{
+    .container-md .row 
+    {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+    .container-md .col-md 
+    {
+        flex: 1 1 auto;
+    }
+}
+    
