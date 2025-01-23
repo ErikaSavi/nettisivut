@@ -84,18 +84,19 @@ footer
 {
     background-color: white
     
+    
 }    
 ul {
-    list-style-type: none;
+    list-style-type: none; 
     margin: 0;
     padding: 0;
-    width: 200px;
+    
     background-color: transparent;
     text-size-adjust: 50px;
   }
   
   li a {
-    display: block;
+    
     color: #727D73;
     padding: 8px 16px;
     text-decoration: none;
@@ -106,4 +107,10 @@ ul {
   li a:hover {
     background-color: #727D73;
     color: white;
+  }
+
+  ul li 
+  {
+    display: inline;
+    
   }
