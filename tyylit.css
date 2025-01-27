@@ -137,3 +137,11 @@ input[type=submit]
     box-shadow: 0px 4px 5px;
   }
 
+  @media (min-width: 576px) 
+  {
+    body
+    {
+      width: 100%;
+    }
+  }
+
